@@ -1,5 +1,6 @@
 #!/bin/bash
-# Debian package build script for g4f
+#
+Debian package build script for g4f
 
 set -e
 
@@ -11,6 +12,7 @@ DESCRIPTION="The official gpt4free repository"
 LONG_DESCRIPTION="Various collection of powerful language models"
 
 # Clean up any previous builds
+
 rm -rf debian/
 
 # Create package directory structure
